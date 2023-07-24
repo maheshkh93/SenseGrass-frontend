@@ -3,7 +3,6 @@ import "./Tasks.css";
 // import MyButton from "../button/MyButton";
 
 export default function ViewTasks({ close, item }) {
-  console.log(item);
   const [title, setTitle] = useState(item[0].title);
   const [description, setDescription] = useState(item[0].description);
   const [dueDate, setDueDate] = useState(item[0].dueDate);
