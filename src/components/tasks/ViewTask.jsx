@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Tasks.css";
-import MyButton from "../button/MyButton";
-import { customPost } from "../../utilities/custom-fetch";
+// import MyButton from "../button/MyButton";
 
 export default function ViewTasks({ close, item }) {
   console.log(item);
