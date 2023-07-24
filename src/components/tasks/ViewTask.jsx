@@ -11,10 +11,10 @@ export default function ViewTasks({ close, item }) {
   return (
     <div className="tasks">
       <div className="add-tasks">
-        <div className="close" onClick={() => close()}>
-          Close
-        </div>
         <form action="/" className="task-form">
+          <div className="close" onClick={() => close()}>
+            Close
+          </div>
           <div className="input">
             <div>Title</div>
             <h2>{title}</h2>
